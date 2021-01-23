@@ -29,6 +29,11 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 scr_resolution := 1080
 
+# Ancient Official-ify
+ANCIENT_OFFICIAL := true
+FORCE_OTA := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
 PRODUCT_NAME := ancient_sanders

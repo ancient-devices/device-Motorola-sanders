@@ -29,6 +29,11 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 scr_resolution := 1080
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+ANCIENT_GAPPS := true
+
 # Ancient Official-ify
 ANCIENT_OFFICIAL := true
 FORCE_OTA := true

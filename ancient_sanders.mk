@@ -38,6 +38,7 @@ ANCIENT_GAPPS := true
 ANCIENT_OFFICIAL := true
 FORCE_OTA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
